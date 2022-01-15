@@ -11,5 +11,5 @@ const sayBye = ()=>{
         sayHello()
     }, 1000);
 }
-
+console.log(process.env)
 sayHello()
