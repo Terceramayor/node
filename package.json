@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terceramayor/node.git"
+  },
+  "author": "Terceramayor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terceramayor/node/issues"
+  },
+  "homepage": "https://github.com/Terceramayor/node#readme"
+}
