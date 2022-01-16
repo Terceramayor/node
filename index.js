@@ -1,3 +1,3 @@
 const fnWrapper = require('./app')
 
-fnWrapper()
+console.log(fnWrapper())

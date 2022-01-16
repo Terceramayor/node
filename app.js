@@ -6,8 +6,6 @@ const fnWrapper =  ()=>{
 
     const hello=buildHello()
 
-    console.log(hello)
-
     return hello
 }
 
