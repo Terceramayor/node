@@ -3,5 +3,7 @@ RUN apk update
 RUN apk add nodejs
 RUN apk add npm
 RUN apk add git
-WORKDIR /home
-CMD git clone https://github.com/Terceramayor/node.git && cd node && npm install && npm test && node index.js
+RUN mkdir myfolder
+COPY . /myfolder 
+RUN cd /myfolder/ && git clone https://github.com/Terceramayor/node.git && npm install
+CMD cd /myfolder/node && node index.js && npm test

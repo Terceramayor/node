@@ -1,3 +1,5 @@
-const fnWrapper = require('./app')
+const add = require('./add')
 
-console.log(fnWrapper())
+for (let i = 0; i < 100; i++) {
+    console.log(add(i,i))
+}

@@ -1,12 +1,5 @@
-const fnWrapper =  ()=>{
-
-    const buildHello =  () =>{
-       return 'Hello!'
-    }
-
-    const hello=buildHello()
-
-    return hello
+const add =  (a,b)=>{
+    return a+b
 }
 
-module.exports = fnWrapper
+module.exports = add
