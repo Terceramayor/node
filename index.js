@@ -2,7 +2,7 @@ const add = require('./app')
 
 const startTime = process.hrtime.bigint();
 
-for (let i = 0; i < 100000; i++) {
+for (let i = 0; i < 500000; i++) {
     console.log(add(i,i))
 }
 

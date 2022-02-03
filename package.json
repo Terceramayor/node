@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "docker_build_image": "sudo docker build -t runfromrepo .",
+    "docker_run_image": "sudo docker run -it runfromrepo "
   },
   "repository": {
     "type": "git",
