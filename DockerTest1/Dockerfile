@@ -5,4 +5,3 @@ RUN apk add npm
 RUN mkdir myfolder
 COPY index.js /myfolder 
 CMD node /myfolder/index.js
-
